@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+.tarjeta-de-alerta{
+  margin: 0 auto;
+  width: 75dvw !important;
+}

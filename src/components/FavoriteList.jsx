@@ -1,6 +1,6 @@
 const FavoriteList = ({ favorites, onRemoveFavorite }) => {
     return (
-      <div className="mt-4">
+      <div className="mt-4 lista-de-favoritos">
         <h2 className="text-2xl">Favoritos</h2>
         <ul>
           {favorites.map((character) => (

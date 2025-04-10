@@ -60,13 +60,89 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: white;
+    background-color: #00101d;
   }
   a:hover {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: lightgreen;
   }
+}
+
+
+.app-container{
+  width: 100dvw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.form-search{
+  gap:1rem;
+}
+
+.form-search input{
+  width: 50dvw;
+  padding: 12px 6px !important;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+
+}
+
+.form-search button{
+  width: 45dvw;
+
+}
+
+
+.characters-grid{
+  width: 75dvw;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.personajes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid rgb(43, 43, 66);
+}
+
+.personajes img{
+  width: 100%;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.personajes button{
+  margin-bottom: 10px;
+}
+
+
+.tarjeta-de-alerta{
+  margin: 0 auto;
+  width: 40dvw !important;
+  color: orange;
+  background-color: rgb(253, 253, 213);
+  border: 1px solid orange;
+  border-radius: 8px;
+  padding: 6px 12px;
+  margin-block: 1rem;
+}
+
+.lista-de-favoritos{
+  width: 50dvw;
+  border: 1px solid lightslategray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 1rem auto;
+
+}
+
+.lista-de-favoritos li {
+  padding: 8px 0px;
 }
